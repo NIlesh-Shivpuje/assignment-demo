@@ -1,0 +1,197 @@
+body 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header-top 
+{
+    background: #EEEAEB;
+    height: 110px;
+
+}
+.header-top a
+{
+    text-decoration: none;
+    color: #000;
+     font-weight: 600; 
+        font-size: 11px;
+}
+.header-top a:nth-of-type(1):after
+{
+    padding:5px;
+    content: "|";
+}
+
+.logo 
+{
+    margin-top: 20px;
+}
+
+#btnSerach 
+{
+    margin-top: 40px;
+    width: 100%;
+}
+#play_btn
+{
+    z-index: 999;
+    position: absolute;
+    top: 18%;
+    left: 29%;
+    transform: translate(18%,29%);
+}
+.navbar
+{
+    color: #000;
+    margin-bottom: 0;
+    min-height: 0px; 
+    font-weight: 600;
+    
+}
+.nav > li > a {
+  padding: 7px 15px;
+  font-size: 13px;    
+}
+.navbar-inverse
+{
+    background: #e6c36f;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav li a
+{
+    color: #000;
+}
+
+.activeNav > a
+{
+    background: #C8A661;
+    color: #fff !important;
+}
+.navbar-nav>li>.dropdown-menu 
+{
+     background: #C8A661;
+    color: #fff;
+}
+
+.paddingZero
+{
+    padding: 0;
+}
+
+.HeaderTop 
+{
+    margin-bottom: 0;
+}
+
+#slider1
+{
+    background: #EFEBEC;
+    border-bottom: 2px solid grey;
+}
+.carousel-indicators
+{
+        left: 67%;
+}
+
+#myCarousel > ol > li
+{
+    float: right;
+}
+
+#myCarousel > div > div > img
+{
+    height: 400px;
+}
+
+.carousel-control
+{
+    width: 7%;
+    color: antiquewhite;
+}
+.pull-left{
+    padding-right: 6px;
+} 
+.floatClear
+{
+    clear: both;
+    margin-top: 20px;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+.topic
+{
+    background: #F4EEDE;
+    color: #6B6863;
+    border-left: 7px solid #E6C36F;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.second-topic
+{
+    color: #CAB89A;
+}
+
+.Glimpss > div > img 
+{
+    border: 3px solid #C9C3B3;
+}
+
+.Glimpss > div 
+{
+    padding: 0 10px 10px;
+}
+
+.flex-container 
+{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > div 
+{
+    margin: 5px;
+}
+
+.right-br 
+{
+    border-right: 1px solid  grey;
+    
+}
+.foot h4
+{
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.foot a
+{
+    text-decoration: none;
+    color: #000;
+}
+hr 
+{
+    clear: both;
+}
+
+#top-footer 
+{
+    background: #e6c36f;
+}
+
+footer 
+{
+    background-color: #947e4c;
+    color: #e6c36f;
+     
+}
